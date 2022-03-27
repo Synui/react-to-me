@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <section>
+        <section className='margin-ud-2'>
             <h1>About Me</h1>
             <p>
                 Lorem ipsum dolor sit amet, id cum zril percipit splendide, eos labores comprehensam definitionem et, atqui dignissim comprehensam no eam. Vis partem sententiae id, ut vis decore dissentiet, pri tale mentitum quaestio id. Cum at viderer lucilius. Ea eos noster oporteat repudiandae.
