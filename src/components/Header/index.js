@@ -10,7 +10,7 @@ function Header(props) {
     } = props;
 
     return (
-        <header className='flex-row padding-lr-1'>
+        <header>
             <h1>
                 Jonathon Schoenholz
             </h1>

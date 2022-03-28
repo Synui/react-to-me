@@ -2,7 +2,7 @@ import React from 'react';
 import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
-// import Contact from './Contact';
+import Contact from './Contact';
 
 function Pages(props) {
 
@@ -14,8 +14,8 @@ function Pages(props) {
         return <main><Projects></Projects></main>
     } else if (currentlyDisplayed === 'Resume') {
         return <main><Resume></Resume></main>
-    // } else {
-    //     return <main><Contact></Contact></main>
+    } else {
+        return <main><Contact></Contact></main>
     }
 }
 

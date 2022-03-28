@@ -23,7 +23,7 @@ function Projects() {
         {
             title: 'Model vs Tech',
             website: 'https://model-vs-tech.herokuapp.com/',
-            repository: 'hhttps://github.com/Synui/model-vs-tech',
+            repository: 'https://github.com/Synui/model-vs-tech',
             projectImage: 'model-vs-tech-image'
         },
     ])
@@ -38,13 +38,13 @@ function Projects() {
                             <p className='project-links'>
                                 <a href={project.website} target='_blank' rel="noreferrer">
                                     <img className='link-icon' src={require('../../../assets/icons/green-internet-icon.png')} alt='Website Icon' 
-                                        width='50'
-                                        height='50'/>
+                                        width='40'
+                                        height='40'/>
                                 </a>
                                 <a href={project.repository} target='_blank' rel="noreferrer">
                                     <img className='link-icon' src={require('../../../assets/icons/green-github-icon.png')} alt='Github Icon'
-                                    width='50'
-                                    height='50'/>
+                                    width='40'
+                                    height='40'/>
                                 </a>
                             </p>
                         </div>

@@ -1,15 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --first: #77A6B6;
+  --second: #9DC3C2;
+  --third: #4D7298;
+  --fourth: #A9B2AC;
+  --fifth: #8bd403;
 }
 
 main {
@@ -17,18 +11,6 @@ main {
 	max-width: 90%;
   padding: 50px 30px;
 }
-
-:root {
-  --first: #77A6B6;
-  --second: #9DC3C2;
-  --third: #4D7298;
-  --fourth: #A9B2AC;
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-
-}
-
 
 html,
 body {
@@ -61,232 +43,78 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 60px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+h1:hover {
+  color: var(--fifth);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 45px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: 1.1rem;
-  margin-top: 0;
-}
-
-a {
-  color: var(--third);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-header {
-  background: var(--third);
-}
-
-header a {
-  color: var(--fourth);
-}
-
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--second);
-}
-
-button:hover {
-  opacity: .8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: .8;
-}
-
-img {
-  max-width: 100%;
-}
-
-span[role="img"] {
-  cursor: default;
-}
-
-form {
-  width: 40%;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--second);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 li {
   list-style: none;
 }
 
-nav a:hover {
+.profile-pic {
+  text-align: center;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+
+}
+/* Header */
+header {
+  background: var(--third);
+}
+
+header a {
+  color: var(--second);
+}
+
+nav {
+  color: var(--first);
   text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 8px;
 }
 
 .nav-flex {
   display: flex;
   flex-wrap: wrap;
-  justify-items: flex-end;
+  justify-content:center;
+  justify-content:space-around;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
-textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
-.margin-lr-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.margin-lr-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.margin-ud-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.margin-ud-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.margin-ud-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.padding-lr-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.padding-lr-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.padding-ud-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.padding-ud-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-}
-
-.card {
-  width: 25%;
-  text-align: center;
-}
-
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
-button {
-	background: var(--first);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
-}
-
-a {
-	border-radius: 5px;
-	color: var(--first);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
-}
-
-.navActive {
-  color: var(--second);
+.clicked-link {
+  color: var(--fifth);
 }
 
 /* Projects */
 .project-card {
     margin-bottom: 60px;
-    border-bottom: var(--fourth) solid 4px;
+    border-bottom: var(--first) solid 3px;
     padding-bottom: 60px;
 }
 
@@ -298,15 +126,22 @@ a {
 .title-card {
   display: flex;
   justify-content: space-between;
+  margin-bottom: -15px;
 }
 
 .link-icon {
-  padding: 0 15px;
+  padding: 15px;
+  max-width: 100%;
+}
+
+.project-links {
+  margin-bottom: 0;
 }
 
 .project-image {
   border-radius: 8px;
-  border: var(--fourth) solid 3px;
+  border: var(--first) solid 3px;
+  max-width: 100%;
 }
 
 /* Resume */
@@ -333,6 +168,8 @@ a {
   margin: auto;
   border-radius: 5px;
   border: var(--first) solid 2px;
+  color: var(--first);
+  text-decoration: none;
 }
 
 .resume-download-link:hover {
@@ -340,4 +177,59 @@ a {
   background-color: var(--third);
   border: var(--third) solid 2px;
   text-decoration: none;
+}
+
+/* Contact */
+form {
+  width: 100%;
+}
+
+#name,
+#email {
+  border: var(--first) solid 1px;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  font-size: 20px;
+  color: var(--fourth);
+}
+
+#message {
+  font-family: Roboto;
+  display: flex;
+  width: 100%;
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: var(--first) 1px solid;
+	padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  color: var(--fourth);
+}
+
+button {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 15px 0;
+  color: #fff;
+  background-color: var(--third);
+  padding: 10px 15px;	
+}
+
+button:hover {
+  background-color: var(--fifth);
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
 }

@@ -12,12 +12,12 @@ function Nav(props) {
         <nav>
             <ul className='nav-flex'>
                 {navBar.map((navBarLink) => (
-                    <li key={navBarLink} className='margin-lr-2'>
+                    <li key={navBarLink}>
                         <span
                             onClick={() => {
                                 setCurrentlyDisplayed(navBarLink)
                             }}
-                            className={`${currentlyDisplayed === navBarLink && 'clicked-link'}`}>
+                            className={`${currentlyDisplayed === navBarLink && 'clicked-link'} nav-link`}>
                             {navBarLink}
                         </span>
                     </li>

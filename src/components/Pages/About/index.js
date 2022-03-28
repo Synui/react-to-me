@@ -1,9 +1,11 @@
 import React from 'react';
+import profilePic from '../../../assets/profile-image/profile-pic.jpg';
 
 function About() {
     return (
-        <section className='margin-ud-2'>
+        <section>
             <h2>About Me</h2>
+                <img className='profile-pic' src={profilePic} alt='Profile Pic by Makowka Picrew' />
             <p>
                 Hello my name is Jonathon Michael Schoenholz and I am an up-and-coming full-stack developer. 
                 I tend to lean more towards the back-end side of things but can easy deal with any front-end needs.
