@@ -19,11 +19,10 @@ main {
 }
 
 :root {
-  --first: #4B3B40;
-  --second: #82735C;
-  --third: #9DB17C;
-  --fourth: #9CDE9F;
-  --fifth: #D1F5BE;
+  --first: #77A6B6;
+  --second: #9DC3C2;
+  --third: #4D7298;
+  --fourth: #A9B2AC;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -43,7 +42,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--fifth);
+  background: white;
   color: var(--first);
   font-family: Roboto;
 
@@ -257,32 +256,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
 button {
 	background: var(--first);
 	border: 0;
@@ -307,4 +280,35 @@ a {
 
 .navActive {
   color: var(--second);
+}
+
+/* Projects */
+.project-title {
+  margin-bottom: 50px;
+}
+
+.project-card {
+    margin-bottom: 60px;
+    border-bottom: var(--fourth) solid 4px;
+    padding-bottom: 60px;
+}
+
+.project-card:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0% ;
+}
+
+.title-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-icon {
+  border-radius: 50%;
+  padding: 0 15px;
+}
+
+.project-image {
+  border-radius: 8px;
+  border: var(--fourth) solid 3px;
 }

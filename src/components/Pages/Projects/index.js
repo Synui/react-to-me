@@ -15,13 +15,13 @@ function Projects() {
             projectImage: 'haphazardly-image'
         },
         {
-            title: 'Playing Without Arpanet',
+            title: 'Forecast Frenzy',
             website: 'https://synui.github.io/forecast-frenzy/',
             repository: 'https://github.com/Synui/forecast-frenzy',
             projectImage: 'ff-image'
         },
         {
-            title: 'Playing Without Arpanet',
+            title: 'Model vs Tech',
             website: 'https://model-vs-tech.herokuapp.com/',
             repository: 'hhttps://github.com/Synui/model-vs-tech',
             projectImage: 'model-vs-tech-image'
@@ -29,20 +29,20 @@ function Projects() {
     ])
     return (
         <div>
-            <h2>Projects</h2>
+            <h1 className='project-title'>Projects</h1>
             <div className='projects'>
                 {displayedProjects.map((project) => (
                     <div className='project-card' key={project.title}>
                         <div className='title-card'>
                             <h3>{project.title}</h3>
                             <p className='project-links'>
-                                <a className='link' href={project.website} target='_blank' rel="noreferrer">
-                                    <img className='link-icon' src={require('../../../assets/icons/pink-internet-icon.png')} alt='Website Icon' 
+                                <a href={project.website} target='_blank' rel="noreferrer">
+                                    <img className='link-icon' src={require('../../../assets/icons/green-internet-icon.png')} alt='Website Icon' 
                                         width='50'
                                         height='50'/>
                                 </a>
-                                <a className='link' href={project.repository} target='_blank' rel="noreferrer">
-                                    <img className='link-icon' src={require('../../../assets/icons/pink-github-icon.png')} alt='Github Icon'
+                                <a href={project.repository} target='_blank' rel="noreferrer">
+                                    <img className='link-icon' src={require('../../../assets/icons/green-github-icon.png')} alt='Github Icon'
                                     width='50'
                                     height='50'/>
                                 </a>
