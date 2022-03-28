@@ -308,3 +308,36 @@ a {
   border-radius: 8px;
   border: var(--fourth) solid 3px;
 }
+
+/* Resume */
+.skills {
+  text-align: center;
+}
+
+.skill {
+  column-count: 3;
+  text-align: center;
+}
+
+.skill li {
+  text-align: left;
+}
+
+.download-resume {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.resume-download-link {
+  padding: 5px 10px;
+  margin: auto;
+  border-radius: 5px;
+  border: var(--first) solid 2px;
+}
+
+.resume-download-link:hover {
+  color: white;
+  background-color: var(--third);
+  border: var(--third) solid 2px;
+  text-decoration: none;
+}

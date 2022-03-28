@@ -25,7 +25,6 @@ function App() {
       <Pages
         currentlyDisplayed={currentlyDisplayed}
       ></Pages>
-      
       {/* <Footer></Footer> */}
     </div>
   );
