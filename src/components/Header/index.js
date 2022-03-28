@@ -6,7 +6,7 @@ function Header(props) {
     const {
         navBar,
         currentlyDisplayed,
-        setCurrentDisplayed
+        setCurrentlyDisplayed
     } = props;
 
     return (
@@ -14,11 +14,11 @@ function Header(props) {
             <h1>
                 Jonathon Schoenholz
             </h1>
-            <Nav>
-                navBar={navBar}
-                currentlyDisplayed={currentlyDisplayed}
-                setCurrentlyDisplayed={setCurrentDisplayed}
-            </Nav>
+            <Nav
+            navBar={navBar}
+            currentlyDisplayed={currentlyDisplayed}
+            setCurrentlyDisplayed={setCurrentlyDisplayed}
+            ></Nav>
         </header>
     )
 }
