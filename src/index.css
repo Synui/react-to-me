@@ -111,6 +111,32 @@ nav li {
   color: var(--fifth);
 }
 
+/* Footer */
+footer {
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer-icons {
+  height: 40px;
+  width: 40px;
+  margin: 0 25px;
+}
+
+.footer-links {
+  display: flex;
+  margin: 0;
+  padding: 5px 10px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 /* Projects */
 .project-card {
     margin-bottom: 60px;

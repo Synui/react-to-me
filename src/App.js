@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Pages from './components/Pages'
 import Header from './components/Header';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
       <Pages
         currentlyDisplayed={currentlyDisplayed}
       ></Pages>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

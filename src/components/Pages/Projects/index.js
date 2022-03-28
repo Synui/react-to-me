@@ -26,6 +26,18 @@ function Projects() {
             repository: 'https://github.com/Synui/model-vs-tech',
             projectImage: 'model-vs-tech-image'
         },
+        {
+            title: 'Baby Game',
+            website: 'https://baby-shower-game.herokuapp.com/',
+            repository: 'https://github.com/Synui/baby-game',
+            projectImage: 'baby-shower-game'
+        },
+        {
+            title: 'Coding Assessment',
+            website: 'https://synui.github.io/coding-assessment/',
+            repository: 'https://github.com/Synui/coding-assessment',
+            projectImage: 'coding-assessment'
+        }
     ])
     return (
         <div>
