@@ -29,7 +29,7 @@ function Projects() {
     ])
     return (
         <div>
-            <h1 className='project-title'>Projects</h1>
+            <h2 className='project-title'>Projects</h2>
             <div className='projects'>
                 {displayedProjects.map((project) => (
                     <div className='project-card' key={project.title}>
