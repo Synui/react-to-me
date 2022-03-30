@@ -4,7 +4,7 @@ import linkedinIcon from '../../assets/icons/green-linkedin-icon.png';
 import stackIcon from '../../assets/icons/stack-icon.png';
 
 function Footer() {
-    // holds all of my personal links
+    // holds all of my personal linksod
     const [footerLinks] = useState([
         {
             name: 'github',
