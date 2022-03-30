@@ -6,7 +6,7 @@ function Resume() {
         <div>
             <h2>Resume</h2>
             <div>
-                <h3 className='skills'>Skills I've learned:</h3>
+                <h4 className='skills'>Skills I've learned:</h4>
                 <ul className='skill'>
                     <li>HTML</li>
                     <li>CSS</li>

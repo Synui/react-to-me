@@ -1,15 +1,15 @@
 :root {
-  --first: #77A6B6;
-  --second: #9DC3C2;
-  --third: #4D7298;
-  --fourth: #A9B2AC;
+  --first: #77a6b6;
+  --second: #9dc3c2;
+  --third: #4d7298;
+  --fourth: #a9b2ac;
   --fifth: #8bd403;
 }
 
 main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 30px 30px;
 }
 
 html,
@@ -23,11 +23,10 @@ body {
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   background: white;
   color: var(--first);
   font-family: Roboto;
-
 }
 
 h1,
@@ -36,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -53,8 +52,9 @@ h1:hover {
 }
 
 h2 {
+
   font-size: 45px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -62,6 +62,14 @@ h3 {
   font-size: 35px;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.skill {
+  padding: 0;
 }
 
 li {
@@ -77,7 +85,6 @@ li {
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;
-
 }
 /* Header */
 header {
@@ -99,8 +106,8 @@ nav {
 .nav-flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
-  justify-content:space-around;
+  margin: 0 0 0 -40px;
+  justify-content: space-around;
 }
 
 nav li {
@@ -132,21 +139,19 @@ footer {
 .footer-links {
   display: flex;
   margin: 0;
-  padding: 5px 10px 0;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  padding: 11px 10px 0;
 }
 
 /* Projects */
 .project-card {
-    margin-bottom: 60px;
-    border-bottom: var(--first) solid 3px;
-    padding-bottom: 60px;
+  margin-bottom: 20px;
+  border-bottom: var(--first) solid 3px;
+  padding-bottom: 20px;
 }
 
 .project-card:last-of-type {
   border-bottom: none;
-  padding-bottom: 0% ;
+  padding-bottom: 0%;
 }
 
 .title-card {
@@ -161,7 +166,6 @@ footer {
 }
 
 .project-links {
-  margin-bottom: 0;
 }
 
 .project-image {
@@ -182,6 +186,10 @@ footer {
 
 .skill li {
   text-align: left;
+}
+
+ul .skill {
+  padding-left: -40px;
 }
 
 .download-resume {
@@ -219,6 +227,7 @@ form {
   border-radius: 3px;
   font-size: 20px;
   color: var(--fourth);
+  font-family: Roboto;
 }
 
 #message {
@@ -228,10 +237,10 @@ form {
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
-	border: var(--first) 1px solid;
-	padding: 5px;
+  width: 600px;
+  height: 120px;
+  border: var(--first) 1px solid;
+  padding: 5px;
   border-radius: 3px;
   font-size: 20px;
   color: var(--fourth);
@@ -248,7 +257,7 @@ button {
   margin: 15px 0;
   color: #fff;
   background-color: var(--third);
-  padding: 10px 15px;	
+  padding: 10px 15px;
 }
 
 button:hover {
@@ -257,5 +266,152 @@ button:hover {
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 604px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  /* Header */
+  .nav-flex {
+    font-size: 25px;
+  }
+
+  /* Footer */
+  .footer-icons {
+    height: 30px;
+    width: 30px;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  /* About */
+  .profile-pic {
+    height: 250px;
+    width: 250px;
+  }
+
+  /* Projects */
+  .link-icon {
+    height: 30px;
+    width: 30px;
+
+  }
+
+  /* Resume */
+  .skill {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  /* Contact */
+  .contact-form-label {
+    font-size: 15px;
+  }
+
+  #name,
+  #email,
+  #message,
+  button {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /* Header */
+  .nav-flex {
+    font-size: 20px;
+  }
+
+  /* Footer */
+  footer p {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+
+  .footer-icons {
+    margin: 5px;
+  }
+
+  .footer-link a {
+    padding: -20px;
+  }
+
+  /* Projects */
+  .link-icon {
+    height: 20px;
+    width: 20px;
+    margin: 0 -10px;
+  }
+
+  .skills h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 416px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin-top: 32px;
+  }
+
+  /* Header */
+  li span {
+    padding: 0 55px;
+  }
+
+  footer p {
+    font-size: 10px;
+    padding-top: 15px;
+  }
+
+  .footer-icons {
+    height: 25px;
+    width: 25px;
+  }
+
+  .footer-links {
+    padding: 5px -25px;
+  }
+
+  /* Projects */
+  .link-icon {
+    height: 15px;
+    width: 15px;
+  }
+
+  @media only screen and (max-width: 342px) {
+   
+  }
 }

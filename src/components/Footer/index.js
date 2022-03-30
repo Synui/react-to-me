@@ -4,6 +4,7 @@ import linkedinIcon from '../../assets/icons/green-linkedin-icon.png';
 import stackIcon from '../../assets/icons/stack-icon.png';
 
 function Footer() {
+    // holds all of the project related information
     const [footerLinks] = useState([
         {
             name: 'github',
