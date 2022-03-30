@@ -28,6 +28,7 @@ function Resume() {
                     <li>GraphQL</li>
                 </ul>
             </div>
+                {/* downloadable link */}
                 <h3 className='download-resume'>
                     <a href={resume} download='jonathon-schoenholz' className='resume-download-link'>Download Resume</a>
                 </h3>

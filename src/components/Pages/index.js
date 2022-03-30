@@ -4,6 +4,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Contact from './Contact';
 
+// a conditional statement that switches the displayed page from one to another
 function Pages(props) {
 
     const { currentlyDisplayed } = props;

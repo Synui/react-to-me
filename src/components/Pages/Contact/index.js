@@ -17,7 +17,6 @@ function Contact() {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
-            // isValid conditional statement
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
             } else {
@@ -28,18 +27,11 @@ function Contact() {
                 }
             }
         }
-        // The name property of target actually refers to the name attribute of the form element. 
-        // This attribute value matches the property names of formState (name, email, and message) and allows us to use [ ] to create dynamic property names.
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
         // console.log('errorMessage', errorMessage);
     };
-    // console.log(formState) is located outside the handleChange function declaration
-    // because the asynchronous nature of the setFormState function will cause the console.log placed in the function body of handleChange to appear delayed in its ability to sync
-    // console.log(formState);
-
-    // front-end purposes only
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
@@ -64,11 +56,6 @@ function Contact() {
                     <label htmlFor="message" className='contact-form-label'>Message:</label>
                     <textarea name="message" id='message' defaultValue={message} onBlur={handleChange} rows="5" placeholder='Ask me anything...' />
                 </div>
-                {/* Same as a conditional "if" statement.
-                If errorMessage has a truthy value, the <div> block will render. 
-                If errorMessage doesn't have an error message, the following <div> block doesn't render. 
-                The && operator—known as the AND operator—is being used here as a short circuit. 
-                If the first value resolves to true, the second expression is evaluated.*/}
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
