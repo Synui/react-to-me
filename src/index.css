@@ -267,6 +267,11 @@ button[disabled] {
   opacity: 0.8;
 }
 
+.error-text {
+  color: rgb(233, 76, 76);
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 604px) {
   h1 {
     font-size: 45px;
@@ -407,9 +412,5 @@ button[disabled] {
   .link-icon {
     height: 15px;
     width: 15px;
-  }
-
-  @media only screen and (max-width: 342px) {
-   
   }
 }
