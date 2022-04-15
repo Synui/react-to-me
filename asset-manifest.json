@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-to-me/static/css/main.337c6c18.css",
-    "main.js": "/react-to-me/static/js/main.fb60087a.js",
+    "main.js": "/react-to-me/static/js/main.54a16e56.js",
     "static/js/787.2aaf58d7.chunk.js": "/react-to-me/static/js/787.2aaf58d7.chunk.js",
     "static/media/baby-shower-game.png": "/react-to-me/static/media/baby-shower-game.30246e0a905c414f2389.png",
     "static/media/ff-image.png": "/react-to-me/static/media/ff-image.475dc37fbb97ae91b6dc.png",
@@ -13,11 +13,11 @@
     "static/media/pwa-chart.png": "/react-to-me/static/media/pwa-chart.aba87a0a7ad95e36bb8c.png",
     "index.html": "/react-to-me/index.html",
     "main.337c6c18.css.map": "/react-to-me/static/css/main.337c6c18.css.map",
-    "main.fb60087a.js.map": "/react-to-me/static/js/main.fb60087a.js.map",
+    "main.54a16e56.js.map": "/react-to-me/static/js/main.54a16e56.js.map",
     "787.2aaf58d7.chunk.js.map": "/react-to-me/static/js/787.2aaf58d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.337c6c18.css",
-    "static/js/main.fb60087a.js"
+    "static/js/main.54a16e56.js"
   ]
 }
