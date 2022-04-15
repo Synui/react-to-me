@@ -3,6 +3,12 @@ import React, { useState } from 'react';
 function Projects() {
     const [displayedProjects] = useState([
         {
+            title: 'ASL Gaming',
+            website: 'https://asl-gaming.herokuapp.com/',
+            repository: 'https://github.com/Synui/asl-gaming',
+            projectImage: 'README'
+        },
+        {
             title: 'Playing Without Arpanet',
             website: 'https://playing-without-arpanet.herokuapp.com/',
             repository: 'https://github.com/Synui/playing-without-arpanet',
