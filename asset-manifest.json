@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-to-me/static/css/main.337c6c18.css",
-    "main.js": "/react-to-me/static/js/main.54a16e56.js",
+    "main.js": "/react-to-me/static/js/main.f9f9a7ca.js",
     "static/js/787.2aaf58d7.chunk.js": "/react-to-me/static/js/787.2aaf58d7.chunk.js",
     "static/media/baby-shower-game.png": "/react-to-me/static/media/baby-shower-game.30246e0a905c414f2389.png",
+    "static/media/README.png": "/react-to-me/static/media/README.3071602d37658c293d09.png",
     "static/media/ff-image.png": "/react-to-me/static/media/ff-image.475dc37fbb97ae91b6dc.png",
     "static/media/jonathon-schoenholz.pdf": "/react-to-me/static/media/jonathon-schoenholz.944e9cafa10d121e43fd.pdf",
     "static/media/coding-assessment.png": "/react-to-me/static/media/coding-assessment.ba481c7fa1c6ac1d51ec.png",
@@ -13,11 +14,11 @@
     "static/media/pwa-chart.png": "/react-to-me/static/media/pwa-chart.aba87a0a7ad95e36bb8c.png",
     "index.html": "/react-to-me/index.html",
     "main.337c6c18.css.map": "/react-to-me/static/css/main.337c6c18.css.map",
-    "main.54a16e56.js.map": "/react-to-me/static/js/main.54a16e56.js.map",
+    "main.f9f9a7ca.js.map": "/react-to-me/static/js/main.f9f9a7ca.js.map",
     "787.2aaf58d7.chunk.js.map": "/react-to-me/static/js/787.2aaf58d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.337c6c18.css",
-    "static/js/main.54a16e56.js"
+    "static/js/main.f9f9a7ca.js"
   ]
 }
